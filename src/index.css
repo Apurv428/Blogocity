@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+
+* {
+    margin: 0;
+    font-family: "Quicksand";
+    color: #333;
+    background-color: black
+}
+
+.navbar {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    border-bottom: 1px solid #f2f2f2;
+    color: #b3d9ff;
+}
+
+.navbar h1 {
+    color: #b3d9ff;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.navbar .links {
+    margin-left: auto;
+    color: #b3d9ff;
+}
+
+.navbar a {
+    margin-left: 16px;
+    text-decoration: none;
+    padding: 6px;
+    color: #b3d9ff;
+}
+
+.navbar a:hover {
+    color: #f1356d;
+}
+
+.content {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    color: white;
+}
+
+
+/* blog previews / list */
+
+.blog-preview {
+    padding: 10px 16px;
+    margin: 20px 0;
+    border-bottom: 1px solid #fafafa;
+}
+
+.blog-preview:hover {
+    box-shadow: 1px 3px 5px rgb(152, 201, 235);
+}
+
+.blog-preview h2 {
+    font-size: 20px;
+    color: #b3d9ff;
+    margin-bottom: 8px;
+}
+
+.blog-preview a {
+    text-decoration: none;
+}
+
+
+/* blog details page */
+
+.blog-details h2 {
+    font-size: 30px;
+    color: rgb(0, 204, 255);
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.blog-details div {
+    margin: 20px 10px;
+    color: white;
+}
+
+.blog-details:hover {
+    box-shadow: 1px 3px 5px rgb(152, 201, 235);
+}
+
+.blog-details p {
+    font-size: 10px;
+    color: rgb(0, 204, 255);
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.blog-details button {
+    background: #b3d9ff;
+    color: black;
+    border: 0;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 900;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+
+/* create new blog form */
+
+.create {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.create label {
+    text-align: left;
+    display: block;
+    font-weight: 700;
+    color: #b3d9ff;
+}
+
+.create h2 {
+    font-size: 25px;
+    color: #b3d9ff;
+    margin-bottom: 30px;
+    /* font-weight: 900; */
+}
+
+.create input,
+.create textarea,
+.create select {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    display: block;
+    font-weight: 900;
+    color: white;
+}
+
+.create button {
+    background: #b3d9ff;
+    color: black;
+    border: 0;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 900;
+}
+
+.create p {
+    color: white;
+}
+
+.not-found h2 {
+    color: white;
+}
+
+.not-found p {
+    color: white;
+}
+
+.not-found Link {
+    color: #b3d9ff;
+}
